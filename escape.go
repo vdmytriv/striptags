@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package sanitation
+package striptags
 
 // filterFailsafe is an innocuous word that is emitted in place of unsafe values
 // by sanitizer functions. It is not a keyword in any programming language,

@@ -1,7 +1,7 @@
 // Copyright (C) 2017 Bolste, Inc. All Rights Reserved.
 // This source is private property of Bolste, Inc.
 
-package sanitation_test
+package striptags_test
 
 import (
 	"testing"
