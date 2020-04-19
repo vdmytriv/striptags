@@ -6,7 +6,7 @@ package striptags_test
 import (
 	"testing"
 
-	"github.com/BolsteDev/core/sanitation"
+	"github.com/vdmytriv/striptags"
 )
 
 func TestStripTags(t *testing.T) {
@@ -22,7 +22,7 @@ func TestStripTags(t *testing.T) {
 
 	for _, d := range data {
 		t.Run(d.input, func(t *testing.T) {
-			res := sanitation.StripTags(d.input)
+			res := striptags.StripTags(d.input)
 
 			if res != d.expectedOutput {
 				t.Errorf("Output:%s, Expected:%s\n", res, d.expectedOutput)
